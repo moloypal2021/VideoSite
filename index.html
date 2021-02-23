@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Inter Font Familly -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+
+    <!-- Red Hat Text Font Familly -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,400;0,500;0,700;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- Tailwind CDN -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Custom Css -->
+    <link href="./style.css" rel="stylesheet" />
+
+    <title>Video-site</title>
+</head>
+
+<body>
+    <!-- Heros Section Start -->
+
+    <!-- Navbar Start -->
+    <section class="theme-light font-primary bg-purple">
+        <nav
+            class="container lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto relative flex items-center justify-between px-6 py-4">
+            <div class="mr-auto">
+                <img src="./images/logo.svg" alt="" class="h-8">
+            </div>
+            <div class="flex ml-auto">
+                <a href="#" class="text-sm color-paragraph opacity-75">
+                    Contact
+                </a>
+            </div>
+        </nav>
+    </section>
+    <!-- Navbar End -->
+    <!-- Heros Content Start -->
+    <section class="theme-light font-primary bg-repeat" style="background-image: url('./images/hero-bg.png')">
+        <div class="container lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto relative px-6 py-12">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="md:text-left text-center">
+                    <h1 class="xl:text-44xl md:text-4xl text-3xl font-extrabold color-white xl:pr-8 md:pl-0 px-4  mb-4">
+                        Add video to
+                        your app
+                        ... in
+                        minutes</h1>
+                    <div class="md:block hidden">
+                        <p class="md:text-lg sm:text-base text-sm color-paragraph xl:leading-normal xl:pr-8 mb-2">Stop
+                            wrestling
+                            with
+                            AWS
+                            and
+                            FFMPEG.</p>
+                        <p class="md:text-lg sm:text-base text-sm color-paragraph xl:leading-normal xl:pr-8 mb-8">Start
+                            using
+                            ittybit’s video API
+                            for
+                            broadcast scale
+                            performance at startup-friendly pricing.</p>
+                        <button class="text-base bg-purple color-white border border-white custom-button">Get A
+                            Quote</button>
+                    </div>
+                </div>
+                <div class="">
+                    <div class="relative mb-12">
+                        <img src="./images/video-pic.png" alt="" class="w-full video-height">
+                        <img src="./images/code-img.png" alt=""
+                            class="code-img absolute sm:-bottom-16 -bottom-10 -left-1">
+                    </div>
+                    <div class="md:hidden block text-center">
+                        <p class="text-sm color-paragraph xl:leading-normal xl:pr-8 mb-1">Stop wrestling with
+                            AWS
+                            and
+                            FFMPEG.</p>
+                        <p class="text-sm color-paragraph xl:leading-normal mb-8">Start using
+                            ittybit’s video API
+                            for
+                            broadcast scale
+                            performance at startup-friendly pricing.</p>
+                        <button class="text-base bg-purple color-white border border-white custom-button">Get A
+                            Quote</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- Heros Content End -->
+
+    <!-- Heros Section End -->
+
+    <!-- How it Works Section Start -->
+    <section class="theme-light font-primary bg-light">
+        <div
+            class="container lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto relative sm:px-6 px-4 py-12">
+            <div class="max-w-xl mx-auto text-center mb-9">
+                <h2 class="sm:text-3xl text-28px font-extrabold xl:leading-loose color-purple-alt">End-to-end video in
+                    3
+                    lines of code
+                </h2>
+                <p class="sm:text-base text-sm color-paragraph-alt2 xl:leading-relaxed">Implement a full video lifecycle
+                    in
+                    a
+                    single API call</p>
+            </div>
+            <div class="flex lg:flex-nowrap flex-wrap items-center justify-center lg:mb-6">
+                <div class="lg:w-3/12 w-5/12 text-center">
+                    <img src="./images/upload-icon.svg" alt="" class="sm:w-24 w-16 sm:h-24 h-16 mb-6 mx-auto">
+                    <h5 class="md:text-xl text-lg font-bold color-purple-alt xl:leading-relaxed">Ingest</h5>
+                    <p class="sm:text-sm text-xs color-paragraph-alt2 xl:leading-relaxed xl:px-1">Dedicated upload
+                        servers
+                        provide rapid
+                        file
+                        ingestion for as fast an upload as possible</p>
+                </div>
+                <div class="lg:w-auto w-1/12">
+                    <img src="./images/arrow-right.svg" alt="" class="sm:w-12 w-9 mx-auto">
+                </div>
+                <div class="lg:w-3/12 w-5/12 text-center">
+                    <img src="./images/video-reload-icon.svg" alt="" class="sm:w-24 w-16 sm:h-24 h-16 mb-6 mx-auto">
+                    <h5 class="md:text-xl text-lg font-bold color-purple-alt xl:leading-relaxed">Transcode</h5>
+                    <p class="sm:text-sm text-xs color-paragraph-alt2 xl:leading-relaxed xl:px-1">Lambda functions
+                        transcode
+                        and
+                        recompress
+                        files
+                        for average <span class="font-bold">78% reduction in file
+                            size</span></p>
+                </div>
+                <div class="lg:w-auto w-11/12">
+                    <img src="./images/arrow-right.svg" alt=""
+                        class="sm:w-12 w-8 mx-auto transform lg:rotate-0 rotate-90">
+                </div>
+                <div class="lg:w-3/12 w-5/12 text-center">
+                    <img src="./images/globe-icon.svg" alt="" class="sm:w-24 w-16 sm:h-24 h-16 mb-6 mx-auto">
+                    <h5 class="md:text-xl text-lg font-bold color-purple-alt xl:leading-relaxed">Distribute</h5>
+                    <p class="sm:text-sm text-xs color-paragraph-alt2 xl:leading-relaxed">
+                        Compressed files are pushed to global network of edge caches ready for buffer-free playback</p>
+                </div>
+                <div class="lg:w-auto w-1/12">
+                    <img src="./images/arrow-right.svg" alt="" class="sm:w-12 w-9 mx-auto">
+                </div>
+                <div class="lg:w-3/12 w-5/12 text-center">
+                    <img src="./images/play-tv-icon.svg" alt="" class="sm:w-24 w-16 sm:h-24 h-16 mb-6 mx-auto">
+                    <h5 class="md:text-xl text-lg font-bold color-purple-alt xl:leading-relaxed">Deliver</h5>
+                    <p class="sm:text-sm text-xs color-paragraph-alt2 xl:leading-relaxed  xl:px-1">Get adaptive
+                        streaming via
+                        a
+                        single
+                        secure URL to
+                        any player or device you choose</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- How it Works Section End -->
+
+    <!-- Pricing Section Start -->
+    <section class="theme-light font-primary bg-repeat" style="background-image: url('./images/pricing-bg.png')">
+        <div class="container lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto relative px-6 py-16">
+            <div class="max-w-2xl mx-auto text-center mb-16">
+                <h2 class="sm:text-3xl text-28px font-extrabold xl:leading-relaxed color-white">Cut your video bill in
+                    half
+                </h2>
+                <p class="sm:text-base text-sm color-paragraph-alt xl:leading-relaxed md:px-4">Our unique compression
+                    engine lets
+                    us
+                    deliver the same quality video, with lower latency, using 50% of the bandwidth of
+                    alternative providers</p>
+            </div>
+            <div class="text-center mb-16">
+                <h5 class="md:text-xl text-lg font-bold color-white xl:leading-relaxed mb-4">Startup Customer Example:
+                    40TB/yr</h5>
+                <div class="flex flex-wrap items-end md:justify-between justify-center">
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/cloudinary.svg" alt="" class="mx-auto mb-1">
+                        <p class="text-base color-paragraph xl:leading-loose">$16,708</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/apivideo.svg" alt="" class="mx-auto mb-1">
+                        <p class="text-base color-paragraph xl:leading-loose">$5,740</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/aws.svg" alt="" class="mx-auto mb-1">
+                        <p class="text-base color-paragraph xl:leading-loose">$943</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/google-drive.svg" alt="" class="mx-auto mb-1">
+                        <p class="text-base color-paragraph xl:leading-loose">$849</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/cloudflare.svg" alt="" class="mx-auto mb-1">
+                        <p class="text-base color-paragraph xl:leading-loose">$1,300</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/vimeo.svg" alt="" class="mx-auto mb-1">
+                        <p class="text-base color-paragraph xl:leading-loose">$849</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/ittybit.svg" alt="" class="mx-auto mb-1">
+                        <p class="text-base color-paragraph-alt font-bold xl:leading-loose">$400</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center md:mb-5">
+                <h5 class="md:text-xl text-lg font-bold color-white xl:leading-relaxed mb-4">Broadcaster Customer
+                    Example:
+                    820,000TB/yr</h5>
+                <div class="flex flex-wrap items-end lg:justify-between justify-center">
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/brightcove.svg" alt="" class="mx-auto mb-2">
+                        <p class="text-base color-paragraph xl:leading-loose">$41,954,280</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/wowza.svg" alt="" class="mx-auto mb-2">
+                        <p class="text-base color-paragraph xl:leading-loose">$41,192,171</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/mux.svg" alt="" class="mx-auto mb-2">
+                        <p class="text-base color-paragraph xl:leading-loose">$33,155,300</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/aws.svg" alt="" class="mx-auto mb-2">
+                        <p class="text-base color-paragraph xl:leading-loose">$19,920,426</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/google-drive.svg" alt="" class="mx-auto mb-2">
+                        <p class="text-base color-paragraph xl:leading-loose">$16,785,678</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/cloudflare.svg" alt="" class="mx-auto mb-2">
+                        <p class="text-base color-paragraph xl:leading-loose">$14,317,200</p>
+                    </div>
+                    <div class="md:w-auto w-4/12 p-3">
+                        <img src="./images/ittybit.svg" alt="" class="mx-auto mb-2">
+                        <p class="text-base color-paragraph-alt font-bold xl:leading-loose">$8,200,000</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- Pricing Section End -->
+
+
+    <!--About Section Start -->
+    <section class="theme-light font-primary bg-light">
+        <div class="container lg:max-w-screen-lg md:max-w-screen-md sm:max-w-screen-sm mx-auto relative px-6 py-12">
+            <div class="grid lg:grid-cols-12 gap-8 mb-6">
+                <div class="lg:col-span-9">
+                    <h2
+                        class="sm:text-3xl text-28px font-extrabold color-purple-alt xl:leading-loose lg:text-left text-center mb-2">
+                        Tell us about your
+                        project</h2>
+                    <p class="text-base color-paragraph-alt2 xl:leading-relaxed">We enjoy helping our customers to
+                        think through features, build them quickly, and to ship their products to real people.</p>
+                    <p class="text-sm color-paragraph-alt2 xl:leading-normal">
+                        We aren’t sales people who want to keep you on the phone all day.<br />
+                        We are developers and business owners who run our company independently.<br />
+                        So get in touch and we can help you add video to your app. We can chat, screen share, email, or
+                        call - up to you.</p>
+                </div>
+                <div class="lg:col-span-3 lg:text-left text-center">
+                    <button class="text-base bg-purple color-white border border-white custom-button">Get A
+                        Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--About Section End -->
+
+</body>
+<script></script>
+
+</html>

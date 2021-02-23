@@ -1,0 +1,122 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* ========== Font Familly ============= */
+
+.font-primary {
+    font-family: var(--font-primary) !important;
+}
+
+.font-secondary {
+    font-family: var(--font-secondary) !important;
+}
+
+/* ========   backgroundColor Start   =========== */
+
+.bg-purple {
+    background-color: var(--purple) !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+/* ==== Border Start  ===== */
+
+.border-white {
+    color: var(--white) !important;
+}
+
+/* ==== Colors Start  ===== */
+
+.color-white {
+    color: var(--white) !important;
+}
+
+.color-paragraph {
+    color: var(--paragraph) !important;
+}
+
+.color-paragraph-alt {
+    color: var(--paragraph-alt) !important;
+}
+
+.color-paragraph-alt2 {
+    color: var(--paragraph-alt2) !important;
+}
+
+.color-secondary {
+    color: var(--secondary) !important;
+}
+
+.color-purple-alt {
+    color: var(--purple-alt) !important;
+}
+
+/* Theme */
+
+.theme-light {
+    --white: #ffffff;
+    --light: #f7f7f7;
+    --paragraph: rgba(255, 255, 255, 0.8);
+    --paragraph-alt: rgba(255, 255, 255, 0.64);
+    --paragraph-alt2: rgba(0, 0, 0, 0.48);
+    --secondary: #C9C1D9;
+    --purple: #7000E0;
+    --purple-alt: #5200A3;
+    --font-primary: "Inter", sans-serif;
+    --font-secondary: 'Red Hat Text', sans-serif;
+}
+
+/* Custom Css */
+
+/* Custom Font Size */
+
+@media (min-width: 1280px) {
+    .xl\:text-44xl {
+        font-size: 2.75rem;
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .text-28px {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+}
+
+/* Custom Button  */
+
+.custom-button {
+    height: 48px;
+    width: 250.43px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 0px rgba(0, 0, 0, 0.48);
+}
+
+/* Heors Video Image Height Adjust */
+
+.video-height {
+    height: 272px;
+}
+
+@media (max-width:640px) {
+    .video-height {
+        height: 180px;
+    }
+}
+
+/* Heors Code Image Height Adjust */
+
+.code-img {
+    width: 278px;
+}
+
+@media (max-width:640px) {
+    .code-img {
+        width: 184px;
+    }
+}
